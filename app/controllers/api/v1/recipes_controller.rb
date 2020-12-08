@@ -10,6 +10,36 @@ module Api
                 recipe = Recipe.find(params[:id])
                 render json: {status: 'Success', message: 'Loaded recipe', data:recipe}, status: :ok
             end
+
+            def create
+                recipe = Recipe.new(recipe_params)
+                if recipe.save
+                    render json: {status: 'Success', message: 'Saved recipe', data:recipe}, status: :ok
+                else
+                    render json: {status: 'Error', message: 'Recipe not saved', data:recipe.errors}, status: :unprocessable_entity
+                end
+            end
+
+            def update
+                recipe = Recipe.find(params[:id])
+                if recipe.update_attributes(article_params)
+                    render json: {status: 'Success', message: 'Updated recipe', data:recipe}, status: :ok
+                else
+                    render json: {status: 'Error', message: 'Recipe not updated', data:recipe.errors}, status: :unprocessable_entity
+                end
+            end
+
+            def destroy
+                recipe = Recipe.find(params[:id])
+                recipe.destroy
+                render json: {status: 'Success', message: 'Deleted recipe', data:recipe}, status: :ok    
+            end
+
+            private
+
+            def recipe_params
+                params.permit(:title, :ingredients, :instructions, :servings, :timeinvest, :source, :imageURL)
+            end
         end
     end
 end
