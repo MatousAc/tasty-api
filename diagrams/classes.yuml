@@ -1,4 +1,5 @@
 // {type:class}
 // {direction:leftToRight}
 
-[Recipe]->[Cookbook]
+[Recipe|Title:string;Ingredients:text;Instructions:text;Servings:integer;TimeInvest:integer;ImageURL:string;CategoryID:integer;CreatedAt:date;UpdatedAt:date]->[Category|Title:string;]
+[Recipe]<-[Cookbook|Title:text;RecipeIDs:integer-list]
