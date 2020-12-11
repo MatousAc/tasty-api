@@ -11,4 +11,7 @@ This course helped me figure out how to host my application
 and it also guided me through implimenting a many-to-many association
 
 # 3 Thanks to:
+Paul Nicholson for providing directions and code @ https://medium.com/@Nicholson85/handling-cors-issues-in-your-rails-api-120dfbcb8a24
+for my Cross-Origins-Resource-Sharing problems. (His code appears in application.rb)
 
+# 4 Thanks to:

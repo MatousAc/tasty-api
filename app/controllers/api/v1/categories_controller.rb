@@ -21,7 +21,7 @@ module Api
 
             def show
                 category = Category.find(params[:id])
-                render json: {status: "Success", message: "Loaded category", date: [category, category.recipes]}, status: :ok
+                render json: {status: "Success", message: "Loaded category", data: [category, category.recipes]}, status: :ok
             end
 
             def update
