@@ -702,7 +702,7 @@ Recipe.create({
     title: "Zucchini Bread",
     description: "This bread is nutritious and delicious. Perfect for breakfast.",
     ingredients: "1 1/2 cups flour \n2 tsp baking powder \n1/2 tsp salt \n1 1/2 tsp cinnamon \n1 Tbsp flax seed, ground \n1/4 cup water \n1/2 cup sucanat \n1/3 cup oil \n1 tsp vanilla \n1 1/2 cups zucchini, grated \n1/2 cup raisins (optional) \n1/2 cup nuts, chopped (optional) \n1/4 cup water (only if needed)",
-    instructions: "1. Mix ground flax seed and water in a small cup and set aside.\n2. Preheat oven to 350 F. In a large bowl, mix together the flour, baking powder, salt and cinnamon.\n3. Add the flax seed mix, sucanat, oil and vanilla and mix well.\n4. Stir in Zucchini, raisins and nuts and mix together gently until "just mixed". Add a little water if the dough seems too dry.\n5. Spoon the batter into a lightly oiled loaf pan and bake for 45-50 minutes. Test with a knife to see if done. Cool for 10 minutes before slicing and serving.",
+    instructions: "1. Mix ground flax seed and water in a small cup and set aside.\n2. Preheat oven to 350 F. In a large bowl, mix together the flour, baking powder, salt and cinnamon.\n3. Add the flax seed mix, sucanat, oil and vanilla and mix well.\n4. Stir in Zucchini, raisins and nuts and mix together gently until \"just mixed\". Add a little water if the dough seems too dry.\n5. Spoon the batter into a lightly oiled loaf pan and bake for 45-50 minutes. Test with a knife to see if done. Cool for 10 minutes before slicing and serving.",
     servings: 12,
     timeinvest: 45,
     source: "Renaty Recepty",
